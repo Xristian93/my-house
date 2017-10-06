@@ -80,6 +80,17 @@ public class Picture
     }
 
     /**
+     * Mueve el sol verticalmente
+     */
+     public void moveSun()
+    {
+        sun.makeVisible();
+        sun.slowMoveVertical(30);
+
+    }
+    
+    
+    /**
      * Change this picture to use color display
      */
     public void setColor()
