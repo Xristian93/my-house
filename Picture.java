@@ -60,8 +60,9 @@ public class Picture
         sun.changeColor("yellow");
         sun.moveHorizontal(100);
         sun.changeSize(80);
+        sun.moveVertical(-20);
         sun.makeVisible();
-        sun.slowMoveVertical(50);
+        
     }
 
     /**
